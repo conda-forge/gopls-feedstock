@@ -223,4 +223,5 @@ Feedstock Maintainers
 =====================
 
 * [@danielnachun](https://github.com/danielnachun/)
+* [@trim21](https://github.com/trim21/)
 

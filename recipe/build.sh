@@ -4,4 +4,4 @@ set -o xtrace -o nounset -o pipefail -o errexit
 
 cd gopls
 go build -o=${PREFIX}/bin/${PKG_NAME} -ldflags="-s -w"
-go-licenses save . --save_path=../license-files --ignore golang.org/x/tools/gopls
+go-licenses save . --save_path=../license-files --ignore golang.org/x/tools/gopls --ignore github.com/segmentio/asm
